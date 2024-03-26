@@ -1,0 +1,39 @@
+﻿Player;Team;Match;Position;Minutes Played;Date;Physicals Quality Check;Distance P90;Running Distance P90;HSR Distance P90;Sprinting Distance P90;HI Distance P90;Count HSR P90;Count Sprint P90;Count HI P90;Count Medium Acceleration P90;Count High Acceleration P90;Count Medium Deceleration P90;Count High Deceleration P90;PSV-99
+Pieter Gerkens;KAA Gent;MSK Zilina v KAA Gent;RM;94.33;3/08/2023;Passed;12174.3;2349;981.8;316.8;1298.5;65.8;16.2;82.1;92.5;7.6;92.5;13.4;27.3
+Malick Martin Fofana;KAA Gent;MSK Zilina v KAA Gent;LF;76.85;3/08/2023;Passed;10398.3;1506.1;794;380.6;1174.6;51.5;26.9;78.5;96;15.2;76.1;22.3;29.3
+Tsuyoshi Watanabe;KAA Gent;MSK Zilina v KAA Gent;LCB;94.33;3/08/2023;Passed;10200.3;1453.1;552.4;256.7;809.1;42.9;13.4;56.3;83;5.7;68.7;15.3;30.2
+Andrew Hjulsager;KAA Gent;MSK Zilina v KAA Gent;RF;59.98;3/08/2023;Passed;11717.4;1977.7;1008.3;405.1;1413.5;78;24;102;99;12;73.5;25.5;28.7
+Hyun-Seok Hong;KAA Gent;MSK Zilina v KAA Gent;LM;59.98;3/08/2023;Passed;12262.1;2682.9;706.7;108;814.8;55.5;3;58.5;84;7.5;91.5;15;26.5
+Alessio Castro-Montes;KAA Gent;MSK Zilina v KAA Gent;RWB;94.33;3/08/2023;Passed;10461.7;1482.7;708.9;346.3;1055.2;52.5;15.3;67.7;94.5;8.6;72.5;20;31.1
+Tarik Tissoudali;KAA Gent;MSK Zilina v KAA Gent;CF;94.33;3/08/2023;Passed;11093.3;1751.7;800.5;386.4;1186.9;63.9;24.8;88.7;84.9;9.5;79.2;20;29.8
+Ismaël Kandouss;KAA Gent;MSK Zilina v KAA Gent;RCB;94.33;3/08/2023;Passed;10162.1;1476;492.3;220.4;712.7;38.2;11.4;49.6;83;5.7;66.8;14.3;28.3
+Núrio Domingos Matias Fortuna;KAA Gent;MSK Zilina v KAA Gent;LWB;94.33;3/08/2023;Passed;9616.3;1169.7;468.5;140.3;608.7;43.9;8.6;52.5;84.9;7.6;82.1;16.2;28
+Tsuyoshi Watanabe;KAA Gent;KAA Gent v KV Kortrijk;RCB;99.27;30/07/2023;Passed;10405.3;1468.7;442.4;103.4;545.8;42.6;7.3;49.9;97.9;8.2;78.9;16.3;26.9
+Andrew Hjulsager;KAA Gent;KAA Gent v KV Kortrijk;LF;70.05;30/07/2023;Passed;11763.6;1827;898.1;373.9;1271.9;77.1;23.1;100.2;127.2;1.3;104.1;33.4;28.7
+Hugo Cuypers;KAA Gent;KAA Gent v KV Kortrijk;RF;99.27;30/07/2023;Passed;11009.1;1795.1;801.5;239.3;1040.8;84.3;15.4;99.7;108.8;12.7;99.7;29;28.4
+Hyun-Seok Hong;KAA Gent;KAA Gent v KV Kortrijk;AM;79.45;30/07/2023;Passed;12060.8;2519.3;836;124.6;960.6;83.8;10.2;94;126.9;5.7;104.2;30.6;26.3
+Alessio Castro-Montes;KAA Gent;KAA Gent v KV Kortrijk;LWB;70.05;30/07/2023;Passed;10616.3;1349;689.9;203;892.9;64.2;7.7;71.9;111.8;5.1;84.8;18;29.7
+Gift Emmanuel Orban;KAA Gent;KAA Gent v KV Kortrijk;CF;79.45;30/07/2023;Passed;10215.5;1314;641.2;347.8;988.9;55.5;22.7;78.2;102;6.8;89.5;26.1;29.8
+Sven Kums;KAA Gent;KAA Gent v KV Kortrijk;RM;99.27;30/07/2023;Passed;11602.9;2097.9;576.6;25.4;602;55.3;0.9;56.2;117;2.7;103.4;16.3;24.2
+Jordan Torunarigha;KAA Gent;KAA Gent v KV Kortrijk;LCB;99.27;30/07/2023;Passed;9494.1;1094.3;320;179.5;499.5;27.2;7.3;34.5;96.1;7.3;70.7;13.6;30.7
+Matisse Samoise;KAA Gent;KAA Gent v KV Kortrijk;RWB;99.27;30/07/2023;Passed;11830.5;2108.8;829.6;280.1;1109.7;72.5;14.5;87;102.4;5.4;94.3;19;28.1
+Julien De Sart;KAA Gent;KAA Gent v KV Kortrijk;LM;99.27;30/07/2023;Passed;11799.6;1689.9;493.2;172.3;665.5;38.1;10;48.1;91.6;3.6;86.1;18.1;28.7
+Pieter Gerkens;KAA Gent;KAA Gent v KV Mechelen;LF;64.45;19/01/2024;Passed;12598.6;2150.5;856;153.6;1009.6;78.2;8.4;86.6;127.1;5.6;115.9;20.9;27.8
+Omri Gandelman;KAA Gent;KAA Gent v KV Mechelen;AM;64.45;19/01/2024;Passed;13585.9;2644.8;1052.9;40.5;1093.4;78.2;4.2;82.4;114.5;5.6;90.8;26.5;25
+Hugo Cuypers;KAA Gent;KAA Gent v KV Mechelen;CF;97.05;19/01/2024;Passed;10570;1582.1;664.9;107.6;772.5;60.3;6.5;66.8;94.6;3.7;82.5;23.2;26.6
+Daisuke Yokota;KAA Gent;KAA Gent v KV Mechelen;RF;78.6;19/01/2024;Passed;12640.1;2135.5;981.3;177.5;1158.8;85.9;11.5;97.3;105.3;6.9;101.9;27.5;27.7
+Archie Brown;KAA Gent;KAA Gent v KV Mechelen;LWB;97.05;19/01/2024;Passed;11372.2;1703.6;623.2;258.7;881.9;60.3;13;73.3;103.9;12.1;88.1;19.5;30.2
+Sven Kums;KAA Gent;KAA Gent v KV Mechelen;RM;97.05;19/01/2024;Passed;12069.6;2232.1;596.3;31.5;627.8;53.8;2.8;56.6;107.6;1.9;91.8;9.3;24.9
+Ismaël Kandouss;KAA Gent;KAA Gent v KV Mechelen;LCB;97.05;19/01/2024;Passed;11170.9;1627.5;498.9;154.9;653.8;41.7;7.4;49.1;91.8;7.4;72.3;13.9;27.3
+Matisse Samoise;KAA Gent;KAA Gent v KV Mechelen;RWB;97.05;19/01/2024;Passed;12169.7;1955.8;722.4;187.3;909.7;66.8;11.1;77.9;107.6;2.8;82.5;16.7;28.3
+Julien De Sart;KAA Gent;KAA Gent v KV Mechelen;RM;97.05;19/01/2024;Passed;11967.5;1838.9;555.5;111.3;666.8;42.7;3.7;46.4;91.8;1.9;78.8;12.1;28.3
+Brian Agbor;KAA Gent;KAA Gent v KV Mechelen;RCB;97.05;19/01/2024;Passed;11247.9;1786.1;559.2;185.5;744.7;47.3;13.9;61.2;93.7;4.6;76;17.6;27.7
+Pieter Gerkens;KAA Gent;KAA Gent v KVC Westerlo;LF;70.33;27/01/2024;Passed;11628.5;2326.5;857.4;160;1017.3;85.7;11.5;97.3;115.2;9;106.2;19.2;27.2
+Omri Gandelman;KAA Gent;KAA Gent v KVC Westerlo;AM;101.31;27/01/2024;Passed;11952;2333.7;901.7;148.4;1050;63.1;10.7;73.7;89.7;1.8;79.1;23.1;26.4
+Hugo Cuypers;KAA Gent;KAA Gent v KVC Westerlo;CF;101.31;27/01/2024;Passed;9957.7;1519.1;709.8;156.4;866.2;61.3;12.4;73.7;87.1;11.5;79.1;25.8;27.9
+Daisuke Yokota;KAA Gent;KAA Gent v KVC Westerlo;RF;98.8;27/01/2024;Passed;10765.4;1723.5;800.7;245;1045.7;69.2;20;89.3;100.2;8.2;82.9;24.6;28.5
+Archie Brown;KAA Gent;KAA Gent v KVC Westerlo;LWB;101.31;27/01/2024;Passed;10117.6;1361;634.3;333.1;967.4;54.2;15.1;69.3;98.6;5.3;79.1;16.9;30.9
+Sven Kums;KAA Gent;KAA Gent v KVC Westerlo;RM;101.31;27/01/2024;Passed;10878.9;1885.1;462.8;40;502.8;42.6;3.6;46.2;101.3;1.8;80.8;8;25.4
+Ismaël Kandouss;KAA Gent;KAA Gent v KVC Westerlo;RCB;101.31;27/01/2024;Passed;9993.2;1511.1;324.3;33.8;358;32;4.4;36.4;103.9;5.3;76.4;10.7;25.8
+Jordan Torunarigha;KAA Gent;KAA Gent v KVC Westerlo;LCB;101.31;27/01/2024;Passed;9318.9;1290.8;382;69.3;451.3;41.8;4.4;46.2;90.6;4.4;64.9;12.4;27.2
+Julien De Sart;KAA Gent;KAA Gent v KVC Westerlo;LM;101.31;27/01/2024;Passed;10877.1;1764.3;542.8;48.9;591.6;39.1;4.4;43.5;87.9;0.9;75.5;8.9;25.8

@@ -53,6 +53,10 @@ if user_email in whitelist_credentials:
             plt.title(f'{selected_column} per positie')
             st.pyplot(plt)
 
+        def laatste_deel_na_spatie(naam):
+            delen = naam.split()  # splits de naam op spaties
+            return delen[-1]  # retourneert het laatste deel van de naam
+
         #functie voor wanneer files worden geupload ter vergelijking
         def compare(files):
             compare_prospects = pd.DataFrame()
@@ -76,7 +80,8 @@ if user_email in whitelist_credentials:
                 cols = list(Prospect.columns)
                 Prospect = Prospect[[cols[0]] + [cols[-1]] + cols[1:15]]
                 Prospect.reset_index(drop=True, inplace=True)
-                Prospect = afronding(Prospect)              
+                Prospect = afronding(Prospect)
+                #Prospect['Position'] = Prospect['Position'].apply(laatste_deel_na_spatie)              
                 compare_prospects = pd.concat([compare_prospects, Prospect], axis=0)
             return compare_prospects
 
@@ -149,6 +154,7 @@ if user_email in whitelist_credentials:
                         compare_prospects = compare(uploaded_files)
                         df_compare = pd.concat([df_selected_position, compare_prospects])
                         st.dataframe(df_compare, hide_index=True)
+                        df_compare['Position'] = df_compare['Position'].apply(laatste_deel_na_spatie) 
                         Barplot(df_compare)
 
         # Hoofdpagina met informatie/ en de navigatiebar

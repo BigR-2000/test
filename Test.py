@@ -88,6 +88,13 @@ if user_email in whitelist_credentials:
         #functie voor wanneer een bepaalde opstelling wordt aangeklikt    
         def formatie(dataframe):
 
+            if options == '3-5-2':
+                st.markdown('In total, 27 games have been recorded in the 3-5-2 formation.')
+            elif options == '3-4-3':
+                st.markdown('In total, 10 games have been recorded in the 3-4-3 formation.')
+            else:
+                st.markdown('In total, 4 games have been recorded in the 4-3-3 formation.')
+
             dataframe.drop(columns= dataframe.columns[0:3], inplace=True)
             dataframe.drop(columns= dataframe.columns[2:4], inplace=True)
 
@@ -98,9 +105,14 @@ if user_email in whitelist_credentials:
             Per_Position_90 = Per_Position_90.reset_index()
             Per_Position_90.loc[Per_Position_90['Position'] == 'LW', 'Position'] = 'LWB'
             Per_Position_90.loc[Per_Position_90['Position'] == 'RW', 'Position'] = 'RWB'
-            Per_Position_90.loc[Per_Position_90['Position'].isin(['LWB', 'RWB']), 'Position Group'] = 'Full Back'
+            Per_Position_90.loc[Per_Position_90['Position'] == 'RM', 'Position'] = 'RCM'
+            Per_Position_90.loc[Per_Position_90['Position'] == 'LM', 'Position'] = 'LCM'
+            if options == '4-3-3':
+                Per_Position_90.loc[Per_Position_90['Position'] == 'LWB', 'Position'] = 'LB'
+                Per_Position_90.loc[Per_Position_90['Position'] == 'RWB', 'Position'] = 'RB'
+            Per_Position_90.loc[Per_Position_90['Position'].isin(['LWB', 'RWB', 'LB', 'RB']), 'Position Group'] = 'Full Back'
             Per_Position_90.loc[Per_Position_90['Position'].isin(['CB', 'LCB', 'RCB']), 'Position Group'] = 'Central Defender'
-            Per_Position_90.loc[Per_Position_90['Position'].isin(['AM', 'RM', 'LM', 'DM', 'RW', 'LW']), 'Position Group'] = 'Midfielder'
+            Per_Position_90.loc[Per_Position_90['Position'].isin(['AM', 'RM', 'LM', 'DM', 'RW', 'LW', 'RCM', 'LCM']), 'Position Group'] = 'Midfielder'
             Per_Position_90.loc[Per_Position_90['Position'].isin(['RW', 'LW']), 'Position Group'] = 'Winger'
             Per_Position_90.loc[Per_Position_90['Position'].isin(['CA', 'CF', 'LF', 'RF']), 'Position Group'] = 'Forward'
 
@@ -108,9 +120,9 @@ if user_email in whitelist_credentials:
             Per_Position_90 = Per_Position_90[[cols[0]] + [cols[-1]] + [cols[-2]] + cols[2:15]]
 
             position_ranking_map =  {
-            'RWB': 1, 'RCB': 2, 'CB': 3, 'LCB': 4, 'LWB': 5,
-            'RW': 6, 'RM': 7, 'LM': 8, 'LW': 9, 'AM': 10,
-            'RF': 11, 'LF': 12, 'CF': 13
+            'RWB': 1, 'RB': 2, 'RCB': 3, 'CB': 4, 'LCB': 5, 'LWB': 6, 'LB': 7,
+            'RW': 8, 'RCM': 9, 'LCM': 10, 'LW': 11, 'AM': 12,
+            'RF': 13, 'CF': 14, 'LF': 15
             }
             Per_Position_90['Ranking'] = Per_Position_90['Position'].map(position_ranking_map)
             Per_Position_90.sort_values(by='Ranking', inplace = True)

@@ -158,7 +158,7 @@ if user_email in whitelist_credentials:
                     st.markdown('In this section, you can compare the stats of different prospects with the benchmarks of KAA Gent. To do this, export the player data from SkillCorner and upload the file below.')
                     st.write("**Export player data from SkillCorner with the following settings:**")
                     st.write("       - Ensure that **'P90'** is selected.")
-                    st.write("       - In **General** settings, only **'Player'**, **'Position'** and **'Date'** should be selected.")
+                    st.write("       - In **General** settings, only **'Player'**, **'Match'** and **'Position'** should be selected.")
                     st.write("       - In **Metrics**, everything should be selected except **'M/min'**.")
                     uploaded_files = st.file_uploader('upload player file(s) here', accept_multiple_files=True)
 
